@@ -1,0 +1,429 @@
+/*商品展示*/
+.product_intro{
+	width:810px;
+	height:auto;
+	float:right;
+}
+/*商品名称*/
+.name{
+	width:810px;
+	height:50px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+}
+.name h1{
+	height: 1.5em;
+	font-size:16px;
+	font-weight: 700;
+	font-family: "microsoft yahei";
+	color:#666;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.name strong{
+	display: block;
+	color: #e4393c;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	font-weight: 700;
+	overflow: hidden;
+}
+/*商品价格*/
+.product_detail{
+	width:810px;
+	height:auto;
+	float: right;
+	margin:0 0 25px 0;
+}
+.summary{
+	width:100%;
+	height:120px;
+}
+.summary li{
+	width:100%;
+	height:18px;
+	padding:6px 0 6px 0;
+}
+.dt{
+	float: left;
+	width: 72px;
+	color:#666666;
+	font-family: "simsun";
+	text-align: right;
+	line-height: 18px;
+}
+.dd{
+	height:14px;
+}
+.dd .p_price{
+	color: #c40000;
+	font-size: 18px;
+	font-weight: 700;
+	float: left;
+	position: relative;
+	bottom:4px;
+}
+.dd span{
+	width:40px;
+	height:18px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400;
+	display: block;
+	float: left;
+	margin-left:20px;
+	background-color: #666666;
+}
+.real_price{
+	color:#666666;
+	text-decoration: line-through;
+}
+.saved_money{
+	display: block;
+	width:50px;
+	margin-left: 10px;
+	color:#fff;
+	float: left;
+	font-family: "microsoft yahei";
+	text-align: center;
+	font-weight: 400;
+	background-color: #c40000;
+}
+.saved_price{
+	color:#000;
+}
+
+/*剩余时间*/
+.summary li b{
+	display: block;
+	width:18px;
+	height:18px;
+	float: left;
+	margin-left: 10px;
+	background:url("../img/shortcut-clock-18-18.png") no-repeat;
+}
+.left-time{
+	float: left;
+	height:18px;
+	font-family: "microsoft yahei";
+	line-height: 18px;
+}
+.left_time strong{
+	height:18px;
+	color: #000;
+	margin-left: 10px;	
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+}
+.left_time span{
+	height:18px;
+	margin-left:5px;
+	color:#e4393c;
+	float: left;
+	font-size: 16px;
+	font-weight: 700;
+}
+/*选择款式和数量*/
+.choose{
+	width:810px;
+	height:auto;
+	background-color: #f4f4f4;
+	margin-top: 10px;
+}
+.choose_version{
+	width:810px;
+	display: block;
+	height:auto;
+}
+.choose_version .dt{
+	float: left;
+	width:71px;
+	height:18px;
+	text-align: center;
+	margin-top: 5px;
+} 
+.choose_version .dd{
+	width:520px;
+	height:auto;
+	float: left;
+}
+.choose_version .dd .item{
+	height:23px;
+	float: left;
+	color: #666;
+	border:2px solid #ccc;
+	background-color: #fff;
+	margin-right: 10px;
+	margin-top:5px;
+}
+.choose_version .dd .selected{
+	border:2px solid #e3383b;
+	color:#e3383b;
+}
+.item_type_unchecked{
+	display: block;
+	float: left;
+	height:18px;
+	text-align: center;
+	padding:3px 0 2px 10px;
+	white-space: nowrap;
+	text-decoration: none;
+	color:#666;
+}
+.item_type_checked{
+	display: block;
+	float: left;
+	height:18px;
+	text-align: center;
+	padding:3px 0 2px 10px;
+	white-space: nowrap;
+	text-decoration: none;
+	color:#e3383b;
+}
+.choose_version .dd .item a:hover{
+	color: #e3383b;
+}
+.unchecked{
+	display:block;
+	float: left;
+	width:22px;
+	height:23px;
+	background:url("../img/shortcut-check-hui-22-23.png") no-repeat;
+}
+.checked{
+	display:block;
+	float: left;
+	width:22px;
+	height:23px;
+	background:url("../img/shortcut-check-22-23.png") no-repeat;
+}
+
+/*数量选择*/
+.choose_amount{
+	margin-top: 10px;
+}
+.choose_amount .dt{
+	float: left;
+	width:71px;
+	height:18px;
+	text-align: center;
+	margin-top: 5px;
+}
+#min{
+	width:17px;
+	height:22px;
+}
+#add{
+	width:17px;
+	height:22px;
+}
+#num{
+	width:37px;
+	height:18px;
+}
+.transport_fee{
+	margin-top: 10px;
+	height:22px;
+	display: block;
+	padding-bottom: 10px;
+}
+.transport_fee .dt{
+	float: left;
+	width:71px;
+	height:18px;
+	text-align: center;
+	margin-top: 5px;
+}
+.transport_fee .dl{
+	line-height: 22px;
+	color:#666;
+	margin-top: 5px;
+}
+.transport_fee .dl span{
+	font-size:18px;
+	color:#1c1c1c;
+}
+.buy_btns{
+	width:810px;
+	height:auto;
+	margin-top: 20px;
+}
+/*购买按钮*/
+.go_buy{
+	width:150px;
+	height:36px;
+	padding:10px auto 10px auto;
+	display: block;
+	float:left;
+	background-color:#f08300;
+	outline: none;
+	border:none;
+	font-family: "microsoft yahei";
+	font-size:16px;
+	font-weight: 600;
+	color:#fff;
+}
+.go_buy:hover{
+	background-color:#fe8300;
+}
+.add_fav{
+	width:160px;
+	height:36px;
+	padding:10px auto 10px auto;
+	display: block;
+	float:left;
+	margin-left: 20px;
+	background-color:#e3383b;
+	outline: none;
+	border:none;
+	font-family: "microsoft yahei";
+	font-size:16px;
+	font-weight: 600;
+	color:#fff;
+}
+.add_fav:hover{
+	background-color:#e03800;
+}
+
+/*图片预览功能*/
+.preview{
+	width:352px;
+	height:auto;
+	float:right;
+	margin-right:30px;
+}
+.pic_zoom{
+	width:352px;
+	height:352px;
+	margin-bottom:5px;
+}
+.pic-preview{
+	width:352px;
+	height:352px;
+}
+.pic_list{
+	width:352px;
+	height:54px;
+}
+.piclist_control_left{
+	width:17px;
+	height:54px;
+	display: block;
+	float: left;
+	background: url(../img/changeImg-102-54.png) 0 0;
+}
+.piclist_control_left:hover{
+	background: url(../img/changeImg-102-54.png) -34px 0;
+}
+.piclist_control_right{
+	width:17px;
+	height:54px;
+	display: block;
+	float: left;
+	margin-left:8px;
+	background: url(../img/changeImg-102-54.png) -17px 0;
+}
+.piclist_control_right:hover{
+	background: url(../img/changeImg-102-54.png) -51px 0;
+}
+.pic_items{
+	width:310px;
+	height:54px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+.pic_list li{
+	display: block;
+	float: left;
+	margin-left:8px;
+}
+.pic_small_list{
+	width:360px;
+	height:54px;
+	position: absolute;
+	left:0;
+}
+.pic_small{
+	width:50px;
+	height:50px;
+	border:1px solid #ccc;
+}
+.pic_small:hover{
+	border:1px solid #e3383b;
+}
+/*商品详情选项卡切换*/
+.mt_detail{
+	width:990px;
+	height:auto;
+	float: left;
+}
+.mt_nav{
+	width:990px;
+	height:39px;
+	background:#fafafa;
+}
+.mt_nav_list{
+	width:990px;
+	height:37px;
+	background:#fafafa;
+	border:1px solid #d1d1d1;
+}
+.mt_nav_list li{
+	width:187px;
+	height:33px;
+	display: block;
+	margin-top: 2px;
+	background:#fafafa;
+	float:left;
+}
+.mt_nav_tab_selected{
+	width:185px;
+	height:33px;
+	display: block;
+	border-bottom: 2px solid #c40000;
+	border-right: 2px solid #d1d1d1;
+	font-family: "microsoft yahei";
+	font-size:16px;
+	font-weight: 700;
+	color:#535353;
+	text-align: center;
+	line-height: 35px;
+}
+.mt_nav_tab_unselected{
+	width:185px;
+	height:33px;
+	display: block;
+	border-bottom: none;
+	border-right: 2px solid #d1d1d1;
+	font-family: "microsoft yahei";
+	font-size:16px;
+	font-weight: 700;
+	color:#535353;
+	text-align: center;
+	line-height: 35px;
+}
+.mt_nav_list li a:hover{
+	color:#c40000;
+}
+.mt_describe{
+	width:990px;
+	height:auto;
+	overflow: hidden;
+	display: none;
+}
+.mt_describe_selected{
+	width:990px;
+	height:auto;
+	overflow: hidden;
+	display: block;
+}
+.test_img{
+	display: block;
+	border:none;
+	width:930px;
+	height:auto;
+	margin:20px auto 20px auto;
+}

@@ -1,0 +1,388 @@
+/*通用开头开始*/
+*{
+	margin:0;
+	padding: 0;
+	font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*通用开头结束*/
+/*头部通用css 开始*/
+.shortcut{
+	width:100%;
+	height:30px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #eee;
+}
+.w{
+	width:1210px;
+	height:auto;
+	margin:0 auto 0 auto;
+}
+.wrap{
+	width:100%;
+	height:30px;
+}
+
+/*左侧登录区域*/
+.login_area{
+	width:30%;
+	height:30px;
+	float: left;
+	list-style: none;
+}
+.login_area li{
+	height:30px;
+	float: left;
+	display: block;
+}
+.login_area li b{
+	width:16px;
+	height:16px;
+	display: block;
+	margin:7px 5px 7px 5px;
+	background: url("../img/header/shortcut-login-16-16.png") no-repeat;
+}
+.login_area li p{
+	height:12px;
+	line-height: 30px;
+}
+.login_area li a{
+	height:12px;
+	line-height: 30px;
+	color:#777777;
+	text-decoration: none;
+}
+.login_area li a:hover{
+	color:#e3383b;
+	text-decoration: underline;
+}
+.login_area li .register{
+	margin-left: 5px;
+}
+
+/*右侧用户信息*/
+.user_info{
+	width:35%;
+	height:30px;
+	float: right;
+	list-style: none;
+}
+.user_info li{
+	height:30px;
+	float: left;
+	display: block;
+}
+.user_info li a{
+	width:78px;
+	height:14px;
+	color:#777777;
+	display: block;
+	text-decoration: none;
+	border-right: 1px solid #ddd;
+	margin:7px 0 7px 20px;
+}
+.user_info li .addToFav{
+	width:52px;
+	float: left;
+	border: none;
+	margin-left: 0;
+}
+.user_info li a:hover{
+	color:#e3383b;
+	text-decoration: underline;
+}
+.user_info li b{
+	display: block;
+	float: left;
+	width:16px;
+	height:16px;
+	margin:7px 5px 7px 20px;
+	background: url("../img/header/shortcut-star-16-16.png") no-repeat;
+}
+
+/*商城图标*/
+.header{
+	height:90px;
+}
+.header .w{
+	height:60px;
+	padding:15px 0 15px 0;
+}
+.logo{
+	width:20%;
+	height:60px;
+	float: left;
+	margin-left: 5px;
+}
+.logo_home{
+	width:100%;
+	height:60px;
+	display: block;
+	border: none;
+}
+.logo_home img{
+	width:198px;
+	height:55px;
+	display: block;
+	border:none;
+	margin:2px auto 3px 0;
+}
+
+/*搜索框*/
+.search{
+	width:636px;
+	height:61px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 5px;
+
+}
+.search_box{
+	width:494px;
+	height:30px;
+	border:3px solid #efefef;
+}
+.search_input{
+	float:left;
+	width:406px;
+	height:20px;
+	padding:5px;
+	border:none;
+	outline:none;
+	font-size:14px;
+}
+.search_button{
+	float: left;
+	width:78px;
+	height:30px;
+	border:none;
+	outline:none;
+	font-size:14px;
+	font-weight: 700;
+	color:#fff;
+	background-color: #e3383b;
+}
+.search_button:hover{
+	background-color: #e5404d;
+}
+/*热门搜索词*/
+.hotwords{
+	height: 18px;
+	color: #999;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.hotwords strong{
+	float: left;
+    font-weight: 400;
+}
+.hotwords a{
+	float: left;
+	margin-right: 10px;
+	color: #999;
+	text-decoration: none;
+}
+.hotwords a:hover{
+	color: #e3383b;
+	text-decoration: underline;
+}
+
+/*通用导航栏*/
+.nav{
+	width:100%;
+	height:40px;
+	overflow: hidden;
+}
+.nav .w{
+	background-color: #c40000;
+	height:40px;
+}
+.nav ul li{
+	width:auto;
+	float: left;
+	display: block;
+	border:none;
+}
+.nav ul li:hover{
+	background-color: #e3383b;
+}
+.nav ul li a{
+	display: block;
+	width:auto;
+	height:40px;
+	margin:auto 20px auto 20px;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 40px;
+	font-family: “微软雅黑”;
+	font-weight: 700;
+	color:#fff;
+	text-align: center;
+}
+/*面包导航*/
+.bread_crumb{
+	width:100%;
+	height:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bread_crumb .w a{
+	color: #666;
+	text-decoration: none;
+}
+.bread_crumb .w a:hover{
+	color: #c40000;
+	text-decoration: underline;
+}
+.bread_crumb .w strong a{
+	display: inline;
+	font-weight: 700;
+	line-height: 20px;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+}
+/*通用头部css结束*/
+/*通用footer css*/
+.footer{
+	width:100%;
+	height:240px;
+	border-top: 2px solid #d1d1d1;
+}
+.footer_tab{
+	width:200px;
+	height:190px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+}
+.footer_tab_left{
+	width:24px;
+	height:190px;
+	float: left;
+	margin-left: 13px;
+	padding-top: 20px
+}
+.ft_icon{
+	width:24px;
+	height:24px;
+}
+.footer_tab_right{
+	width:140px;
+	height:190px;
+	float: left;
+	margin-left: 20px;
+	padding-top:20px;
+	border-right: 2px dotted #d1d1d1;
+}
+.ft_head{
+	display: block;
+	height:24px;
+	font-family: "microsoft yahei";
+	font-size:16px;
+	font-weight:700;
+	color:#c22121;
+	margin-bottom: 15px;
+}
+.ft_item{
+	display: block;
+	height:20px;
+	line-height: 20px;
+	font-size:12px;
+	font-weight: normal;
+	color:#1c1c1d;
+}
+.ft_item a{
+	display: block;
+	height:20px;
+	line-height: 20px;
+	font-size:12px;
+	font-weight: normal;
+	color:#1c1c1d;
+}
+.ft_item a:hover{
+	display: block;
+	height:20px;
+	line-height: 20px;
+	font-size:12px;
+	font-weight: normal;
+	color:#c40000;
+	text-decoration: underline;
+}
+.footer_tab_item{
+	margin-top: 20px;
+	margin-left:23px;
+}
+.ft_tel{
+	display: block;
+	width:160px;
+	height:36px;
+}
+.ft_tel_num{
+	font-family: "microsoft yahei";
+	font-weight: 700;
+	font-size: 22px;
+	color:#ff6600;
+	margin-top: 10px;
+}
+.ft_service_time{
+	color:#999;
+}
+/*通用footer css结束*/
+/*通用copyright开始*/
+.about_us{
+	width:41%;
+	height:auto;
+	margin:10px auto 10px auto;
+}
+.about_us ul{
+	width:;
+	height:auto;
+}
+.about_item{
+	display: block;
+	float: left;
+	border-right:2px solid #d1d1d1;
+}
+.about_item a{
+	display: block;
+	width:auto;
+	height:auto;
+	margin-left:10px;
+	margin-right:10px;
+	font-family: "microsoft yahei";
+	font-size:12px;
+	font-weight: normal;
+	color:#666;
+}
+.about_item a:hover{
+	color:#E4393C;
+	text-decoration: underline;
+}
+.item_special{
+	border-right:none;
+}
+.cp_item{
+	width:100%;
+	height:auto;
+}
+.cp_item p{
+	width:100%;
+	height:auto;
+	font-size:12px;
+	font-family: "microsoft yahei";
+	font-weight: normal;
+	color:#666;
+	text-align: center;
+}
+.cp_safety{
+	display: block;
+	width:487px;
+	height:57px;
+	margin:10px auto 10px auto;
+}
+/*通用copyright结束*/
